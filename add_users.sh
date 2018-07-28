@@ -42,6 +42,6 @@ EOF
 
 for i in {1..9}
     do
-        $strUSERADD -u 15${i} -g security -d $strUSERHOME/usr15${i} -m -c "Information Secuirty Team" usr${i}
+        $strUSERADD -u 15${i} -g security -d $strUSERHOME/usr15${i} -m -c "Information Security Team" usr${i}
         echo usr${i}:abc123 | /usr/sbin/chpasswd
     done
